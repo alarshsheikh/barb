@@ -1,0 +1,1021 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Barab</title>
+  <link rel="shortcut icon" href="img/wl.svg" type="image/x-icon">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+
+
+
+</head>
+
+<body>
+  <button id="backToTop" class="btn rounded-circle shadow"
+    style="position:fixed; bottom:30px; right:30px; display:none; z-index:9999; width:56px; height:56px;"
+    aria-label="Back to top" title="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+
+
+
+  <header id="Header ">
+    <!-- Top Bar -->
+    <div style="background-color: #072F25;"
+      class="row text-light justify-content-around align-items-center px-3 py-2 d-none d-sm-flex" data-aos="flip-down"
+      data-aos-duration="1000">
+
+      <div class="col-xl-4 col-lg-4 d-none d-xl-block text-center">
+        <span><i class="fa-solid fa-location-dot text-warning"></i> 8502 Preston Rd. Inglewood, Maine 98380</span>
+      </div>
+
+      <div class="col-xl-2 col-lg-4 col-md-6 d-none d-md-block text-center">
+        <span><i class="fa-solid fa-envelope text-warning"></i> info@barab.com</span>
+      </div>
+
+      <div class="col-xl-3 col-lg-4 col-md-6 text-center">
+        <span><i class="fa-solid fa-clock text-warning"></i> Opening Hour: Mon–Sat, 9am–5pm</span>
+      </div>
+
+      <div class="col-xl-3 col-lg-4 d-none d-lg-block text-center">
+        <span>
+          <i class="fa-brands fa-facebook mx-1"></i>
+          <i class="fa-brands fa-twitter mx-1"></i>
+          <i class="fa-brands fa-linkedin mx-1"></i>
+          <i class="fa-brands fa-whatsapp mx-1"></i>
+        </span>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-aos="flip-up" data-aos-duration="1000">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-4" href="#">
+          <img src="img/logo.svg" class="img-fluid" alt="">
+        </a>
+
+        <div class="d-none d-sm-block d-lg-none ms-auto">
+          <i class="fa-solid fa-cart-shopping fs-3"></i>
+        </div>
+
+        <button class="navbar-toggler me-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-dark fw-bold" href="#" data-bs-toggle="dropdown">Home</a>
+              <ul class="dropdown-menu bg-light">
+                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-utensils text-danger"></i> FAST FOOD
+                    RESTAURANT</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-utensils text-danger"></i> PIZZA
+                    RESTAURANT</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-utensils text-danger"></i> FINE DINING</a>
+                </li>
+                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-utensils text-danger"></i> BURGER JOINT</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item"><a class="nav-link text-dark fw-bold" href="about.html">ABOUT</a></li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-dark fw-bold" href="#" data-bs-toggle="dropdown">MENU</a>
+              <ul class="dropdown-menu bg-light">
+                <li><a class="dropdown-item" href="menudrid.html"><i class="fa-solid fa-utensils text-danger"></i> MENU
+                    GRID</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-utensils text-danger"></i> MENU LIST</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-dark fw-bold" href="#" data-bs-toggle="dropdown">PAGES</a>
+              <ul class="dropdown-menu bg-light">
+                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-utensils text-danger"></i> SHOP</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-utensils text-danger"></i> RESERVATION</a>
+                </li>
+                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-utensils text-danger"></i> OUR CHEF</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-utensils text-danger"></i> GALLERY</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-dark fw-bold" href="#" data-bs-toggle="dropdown">BLOG</a>
+              <ul class="dropdown-menu bg-light">
+                <li><a class="dropdown-item" href="blog.html"><i class="fa-solid fa-utensils text-danger"></i> BLOG</a>
+                </li>
+                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-utensils text-danger"></i> MENU LIST</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item"><a class="nav-link text-dark fw-bold" href="contact.html">CONTACT</a></li>
+          </ul>
+
+          <div
+            class="d-none d-md-flex justify-content-center align-items-center flex-column flex-lg-row gap-3 mt-3 mt-lg-0">
+            <div>
+              <i class="fa-solid fa-magnifying-glass fs-4 me-3"></i>
+              <i class="fa-solid fa-cart-shopping fs-4"></i>
+            </div>
+            <button class="btn btn-danger text-light fw-bold border-0 px-4">RESERVE A TABLE</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section id="Home">
+    <div class="container-fluid bg ">
+      <div class="row">
+        <div class="col text-center mt-5 ">
+          <h1 class="subtitle fs-2" data-aos="fade-right">Fast Food Restaurant</h1>
+          <h1 class="title mb-5" data-aos="flip-up">Delicious Fast Food <br> For Today</h1>
+          <div class="row justify-content-center position-relative ">
+            <img class=" col-8 position-absolute img-fluid bg-shape" src="img/hero-1-bg.png" alt="">
+            <div class="col-8 position-relative">
+              <img src="img/BANNER.png" class="img-fluid img circle-rounded z-1 " data-aos="fade-up" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="py-5 bg-light text-center">
+    <div class="container-fluid">
+      <p class="text-uppercase text-warning fw-semibold mb-1 fs-1 fw-bold" data-aos="fade-right">
+        Food Category
+      </p>
+      <h1 class="de" data-aos="fade-right">Browse Fast Foods <span class="text-danger">Category</span></h1>
+
+      <img src="img/title-shape.png" class="img-fluid" alt="">
+
+      <!-- ✅ Desktop View (3 Images in a Row) -->
+      <div class="row justify-content-around align-items-stretch g-4 mt-5 d-none d-lg-flex text-center">
+
+  <div class="col-lg-2 col-md-3 col-sm-12 position-relative bg pt-3 d-flex flex-column justify-content-between">
+    <img src="img/li.png" class="img-fluid mx-auto d-block" alt="Pizza">
+    <div class="mt-3">
+      <p class="fw-bold mb-1">Pizza</p>
+      <small class="text-muted">18 items available</small>
+    </div>
+  </div>
+
+  <div class="col-lg-2 col-md-3 col-sm-12 position-relative bg pt-3 d-flex flex-column justify-content-between">
+    <img src="img/pg.png" class="img-fluid mx-auto d-block" alt="Pizza">
+    <div class="mt-3">
+      <p class="fw-bold mb-1">Pizza</p>
+      <small class="text-muted">18 items available</small>
+    </div>
+  </div>
+
+  <div class="col-lg-2 col-md-3 col-sm-12 position-relative bg pt-3 d-flex flex-column justify-content-between">
+    <img src="img/wy-choose-img-1 (1).png" class="img-fluid mx-auto d-block" alt="Pizza">
+    <div class="mt-3">
+      <p class="fw-bold mb-1">Pizza</p>
+      <small class="text-muted">18 items available</small>
+    </div>
+  </div>
+
+  <div class="col-lg-2 col-md-3 col-sm-12 position-relative bg pt-3 d-flex flex-column justify-content-between">
+    <img src="img/li.png" class="img-fluid mx-auto d-block" alt="Pizza">
+    <div class="mt-3">
+      <p class="fw-bold mb-1">Pizza</p>
+      <small class="text-muted">18 items available</small>
+    </div>
+  </div>
+
+  <div class="col-lg-2 col-md-3 col-sm-12 position-relative bg pt-3 d-flex flex-column justify-content-between">
+    <img src="img/pg.png" class="img-fluid mx-auto d-block" alt="Pizza">
+    <div class="mt-3">
+      <p class="fw-bold mb-1">Pizza</p>
+      <small class="text-muted">18 items available</small>
+    </div>
+  </div>
+
+</div>
+
+
+      </div>
+
+      <!-- ✅ Mobile & Tablet View (Single Image Carousel) -->
+      <div id="foodGalleryCarousel" class="carousel slide mt-5 d-lg-none" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#foodGalleryCarousel" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#foodGalleryCarousel" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#foodGalleryCarousel" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/li.png" class="d-block  img-fluid w-100 rounded" alt="Fries">
+            <h1 class="text-danger text-center fw-bold text-uppercase">burger</h1>
+            <p class="text-center text-muted">what do you want</p>
+          </div>
+          <div class="carousel-item">
+            <img src="img/pg.png" class="d-block  img-fluid w-100 rounded" alt="Burger">
+            <h1 class="text-danger text-center fw-bold text-uppercase">burger</h1>
+            <p class="text-center text-muted">what do you want</p>
+          </div>
+          <div class="carousel-item">
+            <img src="img/wy-choose-img-1 (1).png" class=" d-block   w-100 d-block" alt="Pizza">
+            <h1 class="text-danger text-center fw-bold text-uppercase">burger</h1>
+            <p class="text-center text-muted">what do you want</p>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#foodGalleryCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#foodGalleryCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/fullpizza.png" class="img-fluid" data-aos="fade-right" alt="">
+        </div>
+        <div class="col-md-6">
+          <h1 class="fs-3 pt-5 pt-5 text-warning de" data-aos="zoom-in-up">About our restaurant</h1>
+          <h2 class="fw-bold fs-1" data-aos="zoom-in-down">WE INVITE YOU TO VISIT OUR FAST FOOD <span
+              class="text-danger">RESTURENT</span></h2>
+          <P class="text-secondary" data-aos="fade-left">At the heart of our kitchen are bold flavors, high-quality
+            ingredients, and a
+            commitment to consistency. From juicy burgers, crispy fries, and cheesy pizzas to spicy wraps and refreshing
+            drinks, every item on our menu is made to order and packed with taste.</P>
+          <h2 class="fw-bold" data-aos="fade-right">Parvez Hossain Imon</h2>
+          <h5 class="text-secondary" data-aos="flip-up">Restaurant owner</h5>
+          <button class="btn  btn-outline-light bg-danger border border-none ">RESERVE A TABLE</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container-fluid my-5 bg">
+      <div class="row d-flex justify-content-around">
+        <div class="col-lg-2 col-md-6  my-5 text-center    rounded-circle rounded-5 rounded-bottom-0 bg-light">
+          <img src="img/d1.png" class="img-fluid " alt="">
+          <h6 class="fs-4 fw-bold">Fry Chicken Ball</h6>
+          <p>At the heart of our kitchen are bold flavors, high-quality ingredients</p>
+        </div>
+        <div class="col-lg-2 col-md-6  my-5 text-center   rounded-circle rounded-5 rounded-bottom-0 bg-light">
+          <img src="img/d2.png" class="img-fluid " alt="">
+          <h6 class="fs-4 fw-bold">Delicious Burger</h6>
+          <p>AThe soul of our kitchen: bold flavors, high-quality ingredients</p>
+        </div>
+        <div class="col-lg-2 col-md-6  my-5 text-center   rounded-circle rounded-5 rounded-bottom-0 bg-light">
+          <img src="img/d3.png" class="img-fluid " alt="">
+          <h6 class="fs-4 fw-bold">Solo Snack Pack</h6>
+          <p>Our kitchen thrives on bold flavors and premium ingredients</p>
+        </div>
+        <div class="col-lg-2 col-md-6  my-5 text-center   rounded-circle rounded-5 rounded-bottom-0 bg-light">
+          <img src="img/d4.png" class="img-fluid " alt="">
+          <h6 class="fs-4 fw-bold">Pepperoni Burger</h6>
+          <p>Fueling our kitchen: bold flavors and high-quality ingredients</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-success">
+    <div class="container-fluid px-0">
+      <div class="row g-0 align-items-center">
+
+        <div class="col-lg-6">
+          <img src="img/bur.jpg" class="img-fluid w-100" style="height: 100%;" alt="">
+        </div>
+
+        <!-- Right Content -->
+        <div class="col-lg-6 text-center text-lg-start text-md-center py-4">
+          <div class="container">
+            <h5 class="fs-1 text-warning" data-aos="fade-down-right">OUR HISTORY</h5>
+            <h1 class="text-light fs-1" data-aos="fade-down-left">A HISTORY OF RESTAURANT</h1>
+            <img src="img/YE.png" class="img-fluid mt-4 w-75" data-aos="flip-up" alt="">
+
+            <!-- 1998 -->
+            <div class="row align-items-center justify-content-center mt-5">
+              <div class="col-lg-8 col-md-10 text-center text-lg-start">
+                <h1 class="text-warning fs-1" data-aos="zoom-in">1998</h1>
+                <p class="text-light mb-1">__________________________________________________</p>
+                <h4 class="text-light" data-aos="zoom-in">Evolution of Restaurants</h4>
+                <p class="text-light" data-aos="zoom-in">At the heart of our kitchen are bold flavors.</p>
+              </div>
+              <div class="col-lg-3 col-md-4 mt-3 mt-lg-0">
+                <img src="img/gr.jpg" class="img-fluid rounded-5 w-100" alt="">
+              </div>
+            </div>
+
+            <!-- 2016 -->
+            <div class="row align-items-center justify-content-center mt-5">
+              <div class="col-lg-8 col-md-10 text-center text-lg-start">
+                <h1 class="text-warning fs-1" data-aos="zoom-in">2016</h1>
+                <p class="text-light mb-1">__________________________________________________</p>
+                <h4 class="text-light" data-aos="zoom-in">Fine Dining & the Concept</h4>
+                <p class="text-light" data-aos="zoom-in">At the heart of our kitchen are bold flavors.</p>
+              </div>
+              <div class="col-lg-3 col-md-4 mt-3 mt-lg-0">
+                <img src="img/gr.jpg" class="img-fluid rounded-5 w-100" alt="">
+              </div>
+            </div>
+
+            <!-- 2025 -->
+            <div class="row align-items-center justify-content-center mt-5">
+              <div class="col-lg-8 col-md-10 text-center text-lg-start">
+                <h1 class="text-warning fs-1" data-aos="zoom-in">2025</h1>
+                <p class="text-light mb-1">__________________________________________________</p>
+                <h4 class="text-light" data-aos="zoom-in">Modern Fast Food Origins</h4>
+                <p class="text-light" data-aos="zoom-in">At the heart of our kitchen are bold flavors.</p>
+              </div>
+              <div class="col-lg-3 col-md-4 mt-3 mt-lg-0">
+                <img src="img/gr.jpg" class="img-fluid rounded-5 w-100" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Image -->
+        <div class="col-12">
+          <img src="img/leheer.png" class="img-fluid w-100" alt="">
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="py-5">
+    <div class="container-fluid">
+      <div class="row align-items-center justify-content-center text-center text-md-start">
+        <!-- Left Image -->
+        <div class="col-md-3 mb-4 mb-md-0">
+          <img src="img/ro.jpg" class="img-fluid rounded rounded-5" alt="Food Image Left">
+        </div>
+
+        <!-- Center Content -->
+        <div class="col-md-6 text-center">
+          <h5 class="fw-bold text-warning text-center" data-aos="fade-up">MENU CARD</h5>
+          <h1 class="fw-bold text-dark text-center" data-aos="fade-up">OUR FAST FOODS <span class="text-danger">MENU
+              CARD</span></h1>
+          <img src="img/title-shape.png" class="text-center" alt="">
+
+          <div class="d-flex justify-content-center my-3 gap-2 flex-wrap">
+            <button class="btn btn-outline-secondary btn-sm" data-aos="fade-up">Event Creating</button>
+            <button class="btn btn-danger btn-sm text-light" data-aos="fade-up">Meal Plans</button>
+            <button class="btn btn-outline-secondary btn-sm" data-aos="fade-up">Food Delivery</button>
+            <button class="btn btn-outline-secondary btn-sm" data-aos="fade-up">Diet Plans</button>
+          </div>
+
+          <!-- Menu Items -->
+          <div class="text-start">
+            <div class="d-flex justify-content-between align-items-center border-bottom py-3">
+              <div>
+                <h5 class="mb-0 fw-bold" data-aos="fade-up">Fry Chicken Ball</h5>
+                <small class="text-muted" data-aos="fade-up">At the heart of our kitchen are bold flavors.</small>
+              </div>
+              <h5 class="text-danger fw-bold mb-0" data-aos="fade-up">$17.85</h5>
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center border-bottom py-3">
+              <div>
+                <h5 class="mb-0 fw-bold" data-aos="fade-up">Delicious Burger</h5>
+                <small class="text-muted" data-aos="fade-up">The soul of our kitchen: bold flavors.</small>
+              </div>
+              <h5 class="text-danger fw-bold mb-0" data-aos="fade-up">$30.99</h5>
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center border-bottom py-3">
+              <div>
+                <h5 class="mb-0 fw-bold" data-aos="fade-up">Solo Snack Pack</h5>
+                <small class="text-muted" data-aos="fade-up">Our kitchen thrives on premium ingredients.</small>
+              </div>
+              <h5 class="text-danger fw-bold mb-0">$30.00</h5>
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center py-3">
+              <div>
+                <h5 class="mb-0 fw-bold" data-aos="fade-up">Pepperoni Burger</h5>
+                <small class="text-muted" data-aos="fade-up">Fueling our kitchen: bold flavors and quality.</small>
+              </div>
+              <h5 class="text-danger fw-bold mb-0" data-aos="fade-up">$29.00</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Image -->
+        <div class="col-md-3 mt-4 mt-md-0">
+          <img src="img/rou.jpg" class="img-fluid rounded rounded-5" alt="Food Image Right">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!-- Our Food Gallery Section -->
+ <section class="py-5 bg-light text-center">
+  <div class="container-fluid">
+    <p class="text-uppercase text-warning fw-semibold mb-1 fs-1 fw-bold" data-aos="fade-right">
+      Our Food Gallery
+    </p>
+    <h2 class="fw-bold" data-aos="fade-right">
+      Let's See Our Fast Food <span class="text-danger" data-aos="fade-right">Category</span>
+    </h2>
+    <img src="img/title-shape.png" class="img-fluid" alt="">
+
+    <!-- ✅ Desktop View (3 Images in a Row) -->
+    <div class="row justify-content-center g-4 mt-5 d-none d-lg-flex">
+      <div class="col-lg-4 col-md-6">
+        <div class="card border-0 shadow-sm">
+          <img src="img/chipp.jpg" class="card-img-top rounded" alt="Fries">
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card border-0 shadow-sm">
+          <img src="img/bug.jpg" class="card-img-top rounded" alt="Burger">
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card border-0 shadow-sm">
+          <img src="img/pi.jpg" class="card-img-top rounded" alt="Pizza">
+        </div>
+      </div>
+    </div>
+
+    <!-- ✅ Mobile & Tablet View (Single Image Carousel) -->
+    <div id="foodGalleryCarousel2" class="carousel slide mt-5 d-lg-none" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#foodGalleryCarousel2" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#foodGalleryCarousel2" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#foodGalleryCarousel2" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/chipp.jpg" class="d-block w-100 rounded" alt="Fries">
+        </div>
+        <div class="carousel-item">
+          <img src="img/bug.jpg" class="d-block w-100 rounded" alt="Burger">
+        </div>
+        <div class="carousel-item">
+          <img src="img/pi.jpg" class="d-block w-100 rounded" alt="Pizza">
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#foodGalleryCarousel2" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#foodGalleryCarousel2" data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+
+
+  <section data-aos="fade-up">
+    <div class="container-fluid position-relative py-5" style="background-color: #ff8c1a; overflow: hidden;">
+
+      <!-- Top wave shape -->
+      <img src="img/leherw.png" class="position-absolute top-0 start-0 w-100" alt="wave shape" style="z-index:1;">
+
+      <div class="container-fluid   position-relative" style="z-index:2;">
+        <div class="row align-items-center justify-content-between text-center text-md-start">
+
+          <!-- Left Image -->
+          <div class="col-lg-4 col-md-5 mb-5 mb-md-0 text-center">
+            <img src="img/pg.png" alt="Burger" class="img-fluid"
+              style="max-width: 330px; filter: drop-shadow(0 8px 10px rgba(0,0,0,0.2));">
+          </div>
+
+          <!-- Center Text -->
+          <div class="col-lg-4 col-md-6 text-center text-white px-3">
+            <p class="text-uppercase fw-semibold mb-1 fs-6">Save up to 50% off</p>
+            <h2 class="fw-bold text-uppercase mb-3 lh-sm">
+              <span class="text-white-50">Super</span> Delicious <br>
+              <span class="text-dark">Burger</span>
+            </h2>
+            <p class="mb-4 fs-5 fw-medium">Limited Time Offer</p>
+
+            <!-- Countdown Timer -->
+            <div class="d-flex justify-content-center gap-4 flex-wrap">
+              <div class="bg-white text-dark rounded-3 py-2 px-3 shadow-sm">
+                <h4 class="mb-0 fw-bold">841</h4>
+                <small class="text-muted">Days</small>
+              </div>
+              <div class="bg-white text-dark rounded-3 py-2 px-3 shadow-sm">
+                <h4 class="mb-0 fw-bold">23</h4>
+                <small class="text-muted">Hours</small>
+              </div>
+              <div class="bg-white text-dark rounded-3 py-2 px-3 shadow-sm">
+                <h4 class="mb-0 fw-bold">03</h4>
+                <small class="text-muted">Minutes</small>
+              </div>
+              <div class="bg-white text-dark rounded-3 py-2 px-3 shadow-sm">
+                <h4 class="mb-0 fw-bold">06</h4>
+                <small class="text-muted">Seconds</small>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Image -->
+          <div class="col-lg-4 col-md-5 mt-5 mt-md-0 text-center">
+            <img src="img/bs.png" alt="Sandwich" class="img-fluid"
+              style="max-width: 330px; filter: drop-shadow(0 8px 10px rgba(0,0,0,0.2));">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="py-5 text-center bg-light">
+    <div class="container-fluid">
+      <p class="text-uppercase text-warning fw-semibold mb-1 fs-1">Our Chefs</p>
+      <h2 class="fw-bold mb-5 fs-1">Meet Our <span class="text-danger">Expert Chef</span></h2>
+      <img src="img/title-shape.png" class="pb-5 mt-5 img-fluid" alt="">
+
+      <div class="row justify-content-center gy-4">
+        <div class="col-md-3 col-sm-6" data-aos="fade-right">
+          <div class="card border-1  rounded-5 rounded-circle rounded-bottom-0 p-5 shadow-sm h-100 tc">
+            <img src="img/mt.png" class="card-img-top rounded-top" alt="Chef 1">
+            <div class="card-body">
+              <h5 class="fw-bold mb-1">Alisa Hortich</h5>
+              <p class="text-muted mb-0">Pastry Chef</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mt-5 pt-5" data-aos="fade-right">
+          <div class="card border-1 rounded-5 rounded-circle rounded-bottom-0 p-5 shadow-sm h-100 tc">
+            <img src="img/mt2.png" class="card-img-top rounded-top" alt="Chef 2">
+            <div class="card-body">
+              <h5 class="fw-bold mb-1">Michel Clark</h5>
+              <p class="text-muted mb-0">Master Chef</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mt-5 pt-5" data-aos="fade-left">
+          <div class="card border-1 rounded-5 rounded-circle rounded-bottom-0 p-5 shadow-sm h-100 tc">
+            <img src="img/mt3.png" class="card-img-top rounded-top" alt="Chef 3">
+            <div class="card-body">
+              <h5 class="fw-bold mb-1">Esa Diabet</h5>
+              <p class="text-muted mb-0">Senior Chef</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6" data-aos="fade-left">
+          <div class="card border-1 rounded-5 rounded-circle rounded-bottom-0 p-5 shadow-sm h-100 tc">
+            <img src="img/mt4.png" class="card-img-top rounded-top" alt="Chef 4">
+            <div class="card-body">
+              <h5 class="fw-bold mb-1">William Latham</h5>
+              <p class="text-muted mb-0">Food Specialist</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 bg-white position-relative" data-aos="flip-up">
+    <div class="container-fluid px-0">
+      <div class="position-relative text-white p-5 shadow" style="
+           background-color: #198754;
+           clip-path: ellipse(100% 75% at 50% 50%);
+         ">
+
+        <div class="container">
+          <div class="row align-items-center justify-content-center g-4">
+            <!-- Video -->
+            <div class="col-md-6">
+              <div class="ratio ratio-16x9 rounded overflow-hidden shadow">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Lyj8wH2iTYg?si=IEoxB-D04mZSYd-8"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+
+            <!-- Text -->
+            <div class="col-md-6 text-center text-md-start">
+              <p class="text-uppercase text-warning fw-semibold mb-1 text-center fs-1">Restaurant Info</p>
+              <h3 class="fw-bold mb-4 text-center">Our Opening <span class="text-dark">Hours</span></h3>
+              <div class="text-center">
+                <img src="img/YE.png" alt="">
+
+              </div>
+              <div class="row text-center d-flex justify-content-center">
+                <div class="col-md-4">
+                  Monday to Tuesday
+                  <h4>10:00 AM</h4>
+                  <h4>20:00 PM</h4>
+                </div>
+                <div class="col-md-4">
+                  Friday to Sunday
+                  <h4>12:00 AM</h4>
+                  <h4>23:00 PM</h4>
+                </div>
+              </div>
+              <div class="text-center">
+                <a href="#" class="btn btn-light text-success fw-semibold px-4 rounded-pill">
+                  Book Your Table
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid py-5 position-relative">
+    <!-- Decorative Images -->
+    <img src="img/to.jpg" class="position-absolute top-0 start-0 img-fluid" style="width:120px; z-index:1;"
+      alt="left-top">
+    <img src="img/cw.png" class="position-absolute bottom-0 start-0 img-fluid" style="width:150px; z-index:1;"
+      alt="bottom-left">
+    <img src="img/tp.jpg" class="position-absolute bottom-0 end-0 img-fluid" style="width:150px; z-index:1;"
+      alt="right-bottom">
+
+    <!-- Section Heading -->
+    <div class="container text-center position-relative" style="z-index:2;">
+      <h6 class="text-muted text-uppercase mb-2">Testimonials</h6>
+      <h2 class="fw-bold mb-4">Our Customers <span class="text-danger">Feedback</span></h2>
+      <img src="img/YE.png" class="img-fluid mb-5" alt="divider">
+
+      <div class="row justify-content-center g-5">
+        <!-- First Card -->
+        <div class="col-md-5 position-relative" data-aos="fade-right">
+          <div class="p-4 pt-5  rounded-5 position-relative shadow-sm" style="background-color:#F7F2E2">
+            <!-- Quote icon -->
+            <i class="fa-solid fa-quote-left text-danger fs-2 position-absolute" style="top:10px; left:40px;"></i>
+
+            <p class="mt-4">"Every pizza starts with our hand-tossed dough, made fresh daily and topped with our
+              signature sauce crafted from ripe tomatoes and secret herbs."</p>
+
+            <!-- Green bottom label -->
+            <div class="bg-success text-light rounded-pill d-inline-block px-4 py-2 mt-3">
+              <h6 class="fw-bold mb-0">Victoria Wotton</h6>
+              <small>Fermentum Odio Co.</small><br>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star-half-stroke text-warning"></i>
+            </div>
+
+            <!-- Overlapping Customer Image -->
+            <img src="img/gc.png" alt="customer"
+              class="position-absolute start-50 translate-middle-x rounded-circle border border-3 border-white shadow"
+              style="top:-60px; width:120px; height:120px; object-fit:cover;">
+          </div>
+        </div>
+
+        <!-- Second Card -->
+        <div class="col-md-5 position-relative" data-aos="fade-left">
+          <div class="p-4 pt-5  rounded-5 position-relative shadow-sm" style="background-color:#F7F2E2">
+            <i class="fa-solid fa-quote-left text-danger fs-2 position-absolute" style="top:10px; left:40px;"></i>
+
+            <p class="mt-4">"Every pizza starts with our hand-tossed dough, made fresh daily and topped with our
+              signature sauce crafted from ripe tomatoes and secret herbs."</p>
+
+            <div class="bg-success text-light rounded-pill d-inline-block px-4 py-2 mt-3">
+              <h6 class="fw-bold mb-0">Emma Mia</h6>
+              <small>Elit Odio Co.</small><br>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+
+            <img src="img/yb.png" alt="customer"
+              class="position-absolute start-50 translate-middle-x rounded-circle border border-3 border-white shadow"
+              style="top:-60px; width:120px; height:120px; object-fit:cover;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="py-5 text-center bg d-none d-lg-block">
+    <div class="container-fluid">
+      <p class="text-uppercase text-warning fw-semibold mb-1 fs-1 fw-bold" data-aos="fade-up">New Blogs</p>
+      <h2 class="fw-bold" data-aos="fade-up">Our lstest news <span class="text-danger"> Blogs</span></h2>
+      <img src="img/title-shape.png" class="img-fluid" alt="">
+
+      <div id="foodGalleryCarousel2" class="carousel slide mt-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div class="row ">
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div class="bg">
+                  <img src="img/nb.jpg" class="card-img-top rounded" alt="Fries">
+                  <div class="text-start ms-1 my-5 text-danger text-center text-lg-start text-md-center">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="text-secondary">By Barb</span>
+                    <i class="fa-solid fa-calendar"></i>
+                    <span class="text-secondary">octuber 7 2025</span>
+                    <h5 class="text-dark">healthy fast is food Myth or reality? heres </h5>
+                    <button class="btn btn-danger text-light fw-bold border-0 px-4">RESERVE A TABLE</button>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 mb-4 ">
+                <div class="bg">
+                  <img src="img/nb2.jpg" class="card-img-top rounded" alt="Burger">
+                  <div class="text-start ms-1 my-5 text-danger text-center text-lg-start text-md-center">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="text-secondary">By Barb</span>
+                    <i class="fa-solid fa-calendar"></i>
+                    <span class="text-secondary">octuber 7 2025</span>
+                    <h5 class="text-dark"> This so trendy restaurant that everyone </h5>
+                    <button class="btn btn-danger text-light fw-bold border-0 px-4">RESERVE A TABLE</button>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 mb-4 ">
+                <div class="bg">
+                  <img src="img/nb3.jpg" class="card-img-top rounded" alt="Pizza">
+                  <div class="text-start ms-1 my-5 text-danger text-center text-lg-start text-md-center">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="text-secondary">By Barb</span>
+                    <i class="fa-solid fa-calendar"></i>
+                    <span class="text-secondary">octuber 7 2025</span>
+                    <h5 class="text-dark">New restaurant Town our ple Award Contract</h5>
+                    <button class="btn btn-danger text-light fw-bold border-0 px-4">RESERVE A TABLE</button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item ">
+            <div class="row ">
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div class=" bg">
+                  <img src="img/nb4.jpg" class="card-img-top rounded" alt="New Item 1">
+                  <div class="text-start ms-1 my-5 text-danger text-center text-lg-start text-md-center">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="text-secondary">By Barb</span>
+                    <i class="fa-solid fa-calendar"></i>
+                    <span class="text-secondary">octuber 7 2025</span>
+                    <h5 class="text-dark">healthy fast is food Myth or reality? heres </h5>
+                    <button class="btn btn-danger text-light fw-bold border-0 px-4">RESERVE A TABLE</button>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div class="g">
+                  <img src="img/nb5.jpg" class="card-img-top rounded" alt="New Item 2">
+                  <div class="text-start ms-1 my-5 text-danger text-center text-lg-start text-md-center">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="text-secondary">By Barb</span>
+                    <i class="fa-solid fa-calendar"></i>
+                    <span class="text-secondary">octuber 7 2025</span>
+                    <h5 class="text-dark">This so trendy restaurant that everyone </h5>
+                    <button class="btn btn-danger text-light fw-bold border-0 px-4">RESERVE A TABLE</button>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div class="g">
+                  <img src="img/nb6.jpg" class="card-img-top rounded" alt="New Item 3">
+                  <div class="text-start ms-1 my-5 text-danger text-center text-lg-start text-md-center">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="text-secondary">By Barb</span>
+                    <i class="fa-solid fa-calendar"></i>
+                    <span class="text-secondary">octuber 7 2025</span>
+                    <h5 class="text-dark">New restaurant Town our ple Award Contract</h5>
+                    <button class="btn btn-danger text-light fw-bold border-0 px-4">RESERVE A TABLE</button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#foodGalleryCarousel2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#foodGalleryCarousel2" data-bs-slide="next">
+          <span class="carousel-control-next-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <section class="position-relative bg-warning  overflow-hidden">
+
+    <!-- Top Wave -->
+    <img src="img/leherw.png" alt="wave" class="position-absolute top-0 start-0 w-100" style="z-index:1;">
+
+    <!-- Left Decoration -->
+    <img src="img/leg.jfif" alt="left" class="position-absolute top-50 start-0 translate-middle-y d-none d-md-block"
+      style="width:120px; z-index:2; mix-blend-mode:multiply;">
+
+    <!-- Right Decoration -->
+    <img src="img/3491.jpg" alt="right" class="position-absolute top-5 end-0 translate-middle-y d-none d-md-block"
+      style="width:120px; z-index:2; mix-blend-mode:multiply;">
+
+    <!-- Dot Pattern -->
+    <img src="img/lii.png" alt="dots" class="position-absolute bottom-0 end-0 me-lg-5 mb-5 img-fluid"
+      style="max-width:230px; opacity:0.8; z-index:3; transform:rotate(-10deg);">
+
+    <!-- Burger -->
+    <img src="img/li.png" alt="burger" class="position-absolute bottom-0 end-0 me-lg-4 mb-4 img-fluid"
+      style="max-width:220px; z-index:4; ">
+
+    <!-- Main Content -->
+    <div class="container position-relative" style="z-index:5;">
+      <div class="row align-items-center justify-content-center text-center text-md-start">
+
+        <!-- Text + Form -->
+        <div class="col-12 col-md-7 py-5">
+          <h2 class="fw-bold text-dark mb-3">
+            SUBSCRIBE TO OUR NEWSLETTER &amp;
+            <span class="text-danger">GET 20% OFF FAST FOOD ORDER</span>
+          </h2>
+          <p class="text-dark mb-4">Get all latest information on sales and offers.</p>
+
+          <form class="row g-2 justify-content-center justify-content-md-start">
+            <div class="col-12 col-md-8">
+              <input type="email" class="form-control rounded-pill" placeholder="Enter your email address..." required>
+            </div>
+            <div class="col-12 col-md-auto">
+              <button type="submit" class="btn btn-success rounded-pill px-4">SUBSCRIBE</button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="position-relative pt-5 overflow-hidden bgg">
+
+    <img src="img/pg.png" alt="right" class="position-absolute top-0 start-50 translate-middle-y d-none d-md-block"
+      style="width:180px; z-index:2;">
+
+    <img src="img/side-removebg-preview.png" alt="burger"
+      class="position-absolute top-0 end-0   img-fluid d-none d-md-block" style="max-width:250px; z-index:4;">
+
+    <img src="img/WhatsApp_Image_2025-10-08_at_5.48.53_PM-removebg-preview.png" alt="burger"
+      class="position-absolute top-0 end-0 start-0  img-fluid d-none d-md-block" style="max-width:250px; z-index:4;">
+
+    <img src="img/li.png" alt="burger" class="position-absolute top-50 end-0   img-fluid d-none d-md-block"
+      style="max-width:150px; z-index:4;">
+    <div class="row mt-5 text-center justify-content-center align-items-center">
+      <div class="col-4 col-md-4 text-light">
+        <hr>
+      </div>
+      <div class="col-4 col-md-4 text-danger">
+        <img src="img/wl.svg" class="img-fluid w-50" alt="">
+      </div>
+      <div class="col-4 col-md-4 text-light">
+        <hr>
+      </div>
+    </div>
+    <div class="row text-center mt-4 g-4 justify-content-center">
+      <div class="col-12 col-md-4 text-light">
+        <h1>Quick Links</h1>
+        <img src="img/YE.png" alt="">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link text-light fw-bold" href="#">ABOUT</a></li>
+          <li class="nav-item"><a class="nav-link text-light fw-bold" href="#">Our Service</a></li>
+          <li class="nav-item"><a class="nav-link text-light fw-bold" href="#">Latest Blog</a></li>
+          <li class="nav-item"><a class="nav-link text-light fw-bold" href="#">Our Shop</a></li>
+          <li class="nav-item"><a class="nav-link text-light fw-bold" href="#">Contact Us</a></li>
+          <li class="nav-item"><a class="nav-link text-light fw-bold" href="#">Reservation</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-4  text-center rounded-5 border border-secondary pt-4 bgg">
+        <i class="fa-solid fa-clock mt-3 text-light fs-1"></i>
+        <h3 class="text-warning">We’re currently open!</h3>
+        <h3 class="text-secondary">Opening Hours: 8:00AM To 10:00PM</h3>
+        <h3 class="text-secondary">Opening Hours: 8:00AM To 10:00PM</h3>
+        <span>
+          <i class="fa-brands fa-facebook text-light fs-5 mt-2"></i>
+          <i class="fa-brands fa-twitter   text-light fs-5"></i>
+          <i class="fa-brands fa-linkedin   text-light fs-5"></i>
+          <i class="fa-brands fa-whatsapp   text-light fs-5"></i>
+        </span>
+      </div>
+      <div class="col-12 col-md-4 text-light">
+        <h1>Quick Links</h1>
+        <img src="img/YE.png" alt="">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link text-light fw-bold" href="#">ABOUT</a></li>
+          <li class="nav-item"><a class="nav-link text-light fw-bold" href="#">Our Service</a></li>
+          <li class="nav-item"><a class="nav-link text-light fw-bold" href="#">Latest Blog</a></li>
+          <li class="nav-item"><a class="nav-link text-light fw-bold" href="#">Our Shop</a></li>
+          <li class="nav-item"><a class="nav-link text-light fw-bold" href="#">Contact Us</a></li>
+          <li class="nav-item"><a class="nav-link text-light fw-bold" href="#">Reservation</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <hr class="text-light">
+
+    <div class="row align-items-center text-center text-md-start">
+      <div class="col-md-8 mb-3 mb-md-0">
+        <h6 class="text-light mb-0">© 2025 Barab. All Rights Reserved.</h6>
+      </div>
+
+      <div class="col-md-4">
+        <ul class="nav justify-content-center justify-content-md-end gap-2">
+          <li class="nav-item">
+            <a class="nav-link px-1 text-light fw-bold" href="#">Privacy Policy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-1 text-light fw-bold" href="#">Terms &amp; Conditions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-1 text-light fw-bold" href="#">Support Policy</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    </div>
+  </section>
+
+
+
+
+  <script src="js.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <script>
+    AOS.init({
+      offset: 100, // scroll offset
+      duration: 2500, // default duration
+    });
+  </script>
+</body>
+
+</html>
